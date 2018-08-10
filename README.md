@@ -15,7 +15,7 @@ If you want to modify or add somethings to the script please contact us or menti
 
 1) CD in your resources/[esx] folder
 2) Copy the repository
-3) Import fr_esx_tabac.sql OR en_esx_vigneronjob.sql in your database (not the both)
+3) Import fr_esx_tabac.sql in your database (not the both)
 
 4) Add this in your server.cfg :
 
