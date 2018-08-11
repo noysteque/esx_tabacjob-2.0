@@ -153,7 +153,7 @@ local function Sell(source, zone)
 				vine = 1
 			end
 			
-			if xPlayer.getInventoryItem('jus_feuilletab').count <= 0 then
+			if xPlayer.getInventoryItem('tabacsec').count <= 0 then
 				jus = 0
 			else
 				jus = 1
@@ -166,7 +166,7 @@ local function Sell(source, zone)
 				TriggerClientEvent('esx:showNotification', source, _U('no_vin_sale'))
 				vine = 0
 				return
-			elseif xPlayer.getInventoryItem('jus_feuilletab').count <= 0 and vine == 0then
+			elseif xPlayer.getInventoryItem('tabacsec').count <= 0 and vine == 0then
 				TriggerClientEvent('esx:showNotification', source, _U('no_jus_sale'))
 				jus = 0
 				return
@@ -174,7 +174,7 @@ local function Sell(source, zone)
 				if (jus == 1) then
 					SetTimeout(1100, function()
 						local money = math.random(18,25)
-						xPlayer.removeInventoryItem('jus_feuilletab', 1)
+						xPlayer.removeInventoryItem('tabacsec', 1)
 						local societyAccount = nil
 
 						TriggerEvent('esx_addonaccount:getSharedAccount', 'society_tabac', function(account)
