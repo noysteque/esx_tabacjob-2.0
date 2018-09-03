@@ -204,7 +204,7 @@ function OpenVehicleSpawnerMenu()
 	else
 	
 		local elements = {
-			{label = 'Véhicule de Travail',  value = 'rumpo6'},
+			{label = 'Véhicule de Travail',  value = 'mule'},
 		}
 		
 		ESX.UI.Menu.Open(
@@ -532,7 +532,7 @@ end
 function blips()
 	if publicBlip == false then
 		--local blip = AddBlipForCoord(Config.Zones.tabacActions.Pos.x, Config.Zones.tabacActions.Pos.y, Config.Zones.tabacActions.Pos.z)
-		local blip = AddBlipForCoord(410.527, 6515.25, 37)
+		local blip = AddBlipForCoord(2444.408, 4987.925, 46)
 		SetBlipSprite (blip, 475)
 		SetBlipDisplay(blip, 4)
 		SetBlipScale  (blip, 1.0)
