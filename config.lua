@@ -8,7 +8,7 @@ Config.Locale                     = 'fr'
 Config.Zones = {
 
 	feuilletabFarm = {
-		Pos   = {x = 268.4737, y = 6478.4584, z = 29.70},
+		Pos   = {x = 2486.657, y = 4848.316, z = 35.944},
 		Size  = {x = 3.5, y = 3.5, z = 2.0},
 		Color = {r = 136, g = 243, b = 216},
 		Name  = "Récolte de Feuilles",
@@ -17,7 +17,7 @@ Config.Zones = {
 
 
 	TraitementVin = {
-		Pos   = {x = 1543.567, y = 2176.943, z = 77.814},
+		Pos   = {x = -1097.0703, y = -2223.896, z = 13.226},
 		Size  = {x = 3.5, y = 3.5, z = 2.0},
 		Color = {r = 136, g = 243, b = 216},
 		Name  = "Traitement du Tabac",
@@ -33,7 +33,7 @@ Config.Zones = {
 --	},
 	
 	SellFarm = {
-		Pos   = {x = -158.737, y = -54.651, z = 53.410},
+		Pos   = {x = -564.479, y = 302.669, z = 83.172},
 		Size  = {x = 3.5, y = 3.5, z = 2.0},
 		Color = {r = 136, g = 243, b = 216},
 		Name  = "Vente des produits",
@@ -41,7 +41,7 @@ Config.Zones = {
 	},
 
 	tabacActions = {
-		Pos   = {x = 1088.976, y = -3102.165, z = -39.950},
+		Pos   = {x = 2444.408, y = 4987.925, z = 46.810},
 		Size  = {x = 1.5, y = 1.5, z = 1.0},
 		Color = {r = 136, g = 243, b = 216},
 		Name  = "Point d'action",
@@ -49,7 +49,7 @@ Config.Zones = {
 	},
 	  
 	VehicleSpawner = {
-		Pos   = {x = 1104.695, y = -3099.471, z = -39.999},
+		Pos   = {x = 2415.369, y = 4992.817, z = 46.213},
 		Size = {x = 1.5, y = 1.5, z = 1.0},
 		Color = {r = 136, g = 243, b = 216},
 		Name  = "Garage véhicule",
@@ -57,7 +57,7 @@ Config.Zones = {
 	},
 
 	VehicleSpawnPoint = {
-		Pos   = {x = 408.991, y = 6486.213, z = 28.00},
+		Pos   = {x = 2408.440, y = 4996.152, z = 46.609},
 		Size  = {x = 1.5, y = 1.5, z = 1.0},
 		Color = {r = 136, g = 243, b = 216},
 		Name  = "Spawn point",
@@ -65,7 +65,7 @@ Config.Zones = {
 	},
 
 	VehicleDeleter = {
-		Pos   = {x = 407.823, y = 6496.196, z = 27.00},
+		Pos   = {x = 2408.440, y = 4996.152, z = 46.609},
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 136, g = 243, b = 216},
 		Name  = "Ranger son véhicule",
