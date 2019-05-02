@@ -3,74 +3,97 @@ Config.DrawDistance               = 100.0
 Config.MaxInService               = -1
 Config.EnablePlayerManagement     = true
 Config.EnableSocietyOwnedVehicles = false
+Config.EnableLicenses             = false
+Config.EnableESXIdentity          = false
 Config.Locale                     = 'fr'
+
+Config.Cig = {
+  'malbora',
+  'gitanes'
+}
+
+Config.CigResellChances = {
+  malbora = 45,
+  gitanes = 55,
+}
+
+Config.CigResellQuantity= {
+  malbora = {min = 5, max = 10},
+  gitanes = {min = 5, max = 10},
+}
+
+Config.CigPrices = {
+  malbora = {min = 35, max = 20},
+  gitanes = {min = 25,   max = 25},
+}
+
+Config.CigPricesHigh = {
+  malbora = {min = 65, max = 30},
+  gitanes = {min = 55,   max = 35},
+}
+
+Config.Time = {
+	malbora = 5 * 60,
+	gitanes = 5 * 60,
+}
+
+Config.Blip = {
+  Pos     = { x = 972.09210205078, y = -125.28999328613, z = 74.31 },
+  Sprite  = 79,
+  Display = 4,
+  Scale   = 1.2,
+  Colour  = 2,
+}
 
 Config.Zones = {
 
-	feuilletabFarm = {
-		Pos   = {x = 2486.657, y = 4848.316, z = 35.944},
-		Size  = {x = 3.5, y = 3.5, z = 2.0},
-		Color = {r = 136, g = 243, b = 216},
-		Name  = "Récolte de Feuilles",
-		Type  = 27
-	},
+  TabacActions = {
+    Pos   = { x =977.21374511719, y = -104.03607940674, z = 73.845 },
+    Size  = { x = 1.6, y = 1.6, z = 1.0 },
+	Color = {r = 136, g = 243, b = 216},
+    Type  = 23,
+  },
 
+  Garage = {
+    Pos   = { x = 2886.9729003906, y = 4609.4565429688, z = 46.987 },
+    Size  = { x = 1.6, y = 1.6, z = 1.0 },
+	Color = {r = 136, g = 243, b = 216},
+    Type  = 23,
+  },
 
-	TraitementVin = {
-		Pos   = {x = -1097.0703, y = -2223.896, z = 13.226},
-		Size  = {x = 3.5, y = 3.5, z = 2.0},
-		Color = {r = 136, g = 243, b = 216},
-		Name  = "Traitement du Tabac",
-		Type  = 27
-	},
+  Craft = {
+    Pos   = { x = 974.52801513672, y = -101.87335968018, z = 73.845 },
+    Size  = { x = 1.6, y = 1.6, z = 1.0 },
+	Color = {r = 136, g = 243, b = 216},
+    Type  = 27,
+  },
 
---	TraitementJus = {
---		Pos   = {x = 811.337, y = 2179.402, z = 51.388},
---		Size  = {x = 3.5, y = 3.5, z = 2.0},
---		Color = {r = 136, g = 243, b = 216},
---		Name  = "Traitement du Jus de raisin",
---		Type  = 1
---	},
-	
-	SellFarm = {
-		Pos   = {x = -564.479, y = 302.669, z = 83.172},
-		Size  = {x = 3.5, y = 3.5, z = 2.0},
-		Color = {r = 136, g = 243, b = 216},
-		Name  = "Vente des produits",
-		Type  = 27
-	},
+  Craft2 = {
+    Pos   = { x = 987.06652832031, y = -144.44741821289, z = 74.271 },
+    Size  = { x = 1.6, y = 1.6, z = 1.0 },
+	Color = {r = 136, g = 243, b = 216},
+    Type  = 27,
+  },
 
-	tabacActions = {
-		Pos   = {x = 2444.408, y = 4987.925, z = 46.810},
-		Size  = {x = 1.5, y = 1.5, z = 1.0},
-		Color = {r = 136, g = 243, b = 216},
-		Name  = "Point d'action",
-		Type  = 25
-	},
-	  
-	VehicleSpawner = {
-		Pos   = {x = 2415.369, y = 4992.817, z = 46.213},
-		Size = {x = 1.5, y = 1.5, z = 1.0},
-		Color = {r = 136, g = 243, b = 216},
-		Name  = "Garage véhicule",
-		Type  = 0
-	},
+  VehicleSpawnPoint = {
+    Pos   = { x = 964.86932373047, y = -119.27603149, z = 73.353 },
+    Size  = { x = 1.6, y = 1.6, z = 1.0 },
+    Type  = -1,
+  },
 
-	VehicleSpawnPoint = {
-		Pos   = {x = 2408.440, y = 4996.152, z = 46.609},
-		Size  = {x = 1.5, y = 1.5, z = 1.0},
-		Color = {r = 136, g = 243, b = 216},
-		Name  = "Spawn point",
-		Type  = -1
-	},
+  VehicleDeleter = {
+    Pos   = { x = 984.0830078125, y = -136.76441955566, z = 72.365 },
+    Size  = { x = 1.6, y = 1.6, z = 1.0 },
+    Color = { r = 204, g = 204, b = 0 },
+    Type  = 1,
+  },
 
-	VehicleDeleter = {
-		Pos   = {x = 2408.440, y = 4996.152, z = 46.609},
-		Size  = {x = 3.0, y = 3.0, z = 1.0},
-		Color = {r = 136, g = 243, b = 216},
-		Name  = "Ranger son véhicule",
-		Type  = 0
-	}
-
+  SellFarm = {
+    Pos   = {x = 68.924179077148, y = 127.1748046875, z = 78.226},
+    Size  = { x = 1.6, y = 1.6, z = 1.0 },
+	Color = {r = 136, g = 243, b = 216},
+    Name  = "Vente des produits",
+    Type  = 1
+  },
+  
 }
-
