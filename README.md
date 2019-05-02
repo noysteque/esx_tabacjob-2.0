@@ -8,10 +8,8 @@ Entreprise de Tabac - Made by noydem.
 * [esx_billing](https://github.com/ESX-ORG/esx_billing)
 
 ## Installation 
-* Import
+* Import esx_tabac.sql in your database
+* Add this to your server.cfg or config.cfg
 ```
-esx_tabac.sql
-```
-in your database
-
-* add this to your server.cfg or config.cfg
+start esx_tabacjob
+``` 
