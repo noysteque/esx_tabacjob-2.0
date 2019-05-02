@@ -1,7 +1,9 @@
 # esx_tabacjob
 ESX Tabac Job
 
-If you want to modify or add somethings to the script please contact us or mention us
+If you want to modify or add somethings to the script please contact us or mention me.
+(Si vous avez envie de faire une modification, où ajouté une nouveauté merci de me mentionner).
+
 [REQUIREMENTS]
 
 	* Auto mode
@@ -22,5 +24,3 @@ If you want to modify or add somethings to the script please contact us or menti
 ```
 start esx_tabacjob
 ```
-
-5) If you want player management you have to set Config.EnablePlayerManagement on true in config.lua
