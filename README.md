@@ -1,7 +1,17 @@
 # esx_tabacjob
 Entreprise de Tabac - Made by noydem.
 
-Requirements 
+## Requirements 
 
-esx_skin
-esx_datastore
+* [esx_service](https://github.com/ESX-ORG/esx_service)
+* [esx_society](https://github.com/ESX-ORG/esx_society)
+* [esx_billing](https://github.com/ESX-ORG/esx_billing)
+
+## Installation 
+* Import
+```
+esx_tabac.sql
+```
+in your database
+
+* add this to your server.cfg or config.cfg
