@@ -1,4 +1,4 @@
-# esx_tabacjob
+# esx_tabacjob 2.0
 Entreprise de Tabac - Made by noydem.
 
 ## Requirements 
