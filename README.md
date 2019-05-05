@@ -1,6 +1,6 @@
 # esx_tabacjob 2.0
-*Entreprise de Tabac - Made by noydem.
-*Cette version 2.0 est une mise à jour de mon ancien script esx_tabacjob que j'avait il y'a 9 mois.
+* Entreprise de Tabac - Made by noydem.
+* Cette version 2.0 est une mise à jour de mon ancien script esx_tabacjob que j'avait il y'a 9 mois.
 * [Cliquez ici](https://github.com/noydem/esx_tabacjob/tree/5b3358e9a705e7be3fc1805b0876ff962098265d) pour aller sur le lien de ma version 1.0
 
 ## Requirements 
