@@ -41,7 +41,7 @@ Config.Blip = {
   Pos     = { x = 972.09210205078, y = -125.28999328613, z = 74.31 },
   Sprite  = 79,
   Display = 4,
-  Scale   = 1.2,
+  Scale   = 0.8,
   Colour  = 2,
 }
 
