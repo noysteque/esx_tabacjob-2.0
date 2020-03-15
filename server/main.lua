@@ -151,8 +151,8 @@ local function Craft2(source)
       if TabacBrunQuantity <= 0 then
         TriggerClientEvent('esx:showNotification', source, _U('not_enough_tabacbrun'))
       else
-                xPlayer.removeInventoryItem('tabacbrun', 4)
-                xPlayer.addInventoryItem('tabacbrunsec', 2)
+                xPlayer.removeInventoryItem('tabacbrun', 8)
+                xPlayer.addInventoryItem('tabacbrunsec', 4)
 
         Craft2(source)
       end
@@ -306,7 +306,7 @@ AddEventHandler('esx_tabac:pedBuyCig', function()
   local _source       = source
   local xPlayer       = ESX.GetPlayerFromId(_source)
   local resellChances = {}
-  local cigTypeMagic  = math.random(0, 100)
+  local cigTypeMagic  = math.random(30, 100)
   local chosenCig     = nil
   local prices        = nil
 
@@ -542,11 +542,11 @@ ESX.RegisterUsableItem('gitanes', function(source)
     xPlayer.removeInventoryItem('gitanes', 1)
 
     TriggerClientEvent('esx_tabac:onSmokeCig', source)
-    TriggerClientEvent('esx:showNotification', source, 'Vous avez fumé ~g~1x ~b~Lucky Strike')
+    TriggerClientEvent('esx:showNotification', source, 'Vous avez fumé ~g~1x ~b~Gitane')
 
 end)
 
----SPLIF
+---SPLIF FUMABLE
 
 ESX.RegisterUsableItem('splif', function(source)
 
@@ -559,7 +559,6 @@ ESX.RegisterUsableItem('splif', function(source)
   TriggerClientEvent('esx_status:add', source, 'thirst', -80000)
   TriggerClientEvent('esx_status:add', source, 'hunger', -80000)
   TriggerClientEvent('esx:showNotification', source, 'Vous fumez un splif de weed')
-  TriggerClientEvent('esx_status:add', source, 'drunk', 150000)
 
 end)
 
@@ -595,7 +594,7 @@ local function Sell(source, zone)
       else
         if (gitanes == 1) then
           SetTimeout(1100, function()
-            local money = math.random(65,70)
+            local money = math.random(70,70)
             xPlayer.removeInventoryItem('gitanes', 1)
             local societyAccount = nil
 
@@ -610,7 +609,7 @@ local function Sell(source, zone)
           end)
         elseif (malbora == 1) then
           SetTimeout(1100, function()
-            local money = math.random(60,65)
+            local money = math.random(70,70)
             xPlayer.removeInventoryItem('malbora', 1)
             local societyAccount = nil
 
